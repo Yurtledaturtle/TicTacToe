@@ -41,4 +41,3 @@
 - HTML
 - CSS
 - Javascript/jquery
--------
