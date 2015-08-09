@@ -1,0 +1,33 @@
+body{
+  font-family: 'Poiret One', cursive;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(http://vignette3.wikia.nocookie.net/montypython/images/c/c1/Bridge_of_Death_monty_python_and_the_holy_grail_591679_800_4411271399897.jpg/revision/latest?cb=20130716234623);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 660px) , screen and (max-height: 400px) {
+      body {
+        background-image: url(http://www.thepinksmoke.com/images/deathholygrail.png);
+        height: 100%;
+        width: 100%;
+      }
+}
+
+#playeroneinfo{
+  color: green;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+#playertwoinfo{
+  color: gold;
+  margin: 0 auto;
+  display: inline-block;
+}
